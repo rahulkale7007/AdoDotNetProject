@@ -38,5 +38,19 @@ namespace AdoDotNetProject
             std.MdiParent = this;
             std.Show();
         }
+
+        private void discconectDemoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 f = new Form1();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void dissconnectDemo1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.MdiParent = this;
+            f.Show();
+        }
     }
 }

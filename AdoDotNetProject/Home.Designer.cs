@@ -33,6 +33,8 @@ namespace AdoDotNetProject
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.studentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.discconectDemoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dissconnectDemo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +43,9 @@ namespace AdoDotNetProject
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.productToolStripMenuItem,
             this.employeeToolStripMenuItem,
-            this.studentToolStripMenuItem});
+            this.studentToolStripMenuItem,
+            this.discconectDemoToolStripMenuItem,
+            this.dissconnectDemo1ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -69,6 +73,20 @@ namespace AdoDotNetProject
             this.studentToolStripMenuItem.Text = "Student";
             this.studentToolStripMenuItem.Click += new System.EventHandler(this.studentToolStripMenuItem_Click);
             // 
+            // discconectDemoToolStripMenuItem
+            // 
+            this.discconectDemoToolStripMenuItem.Name = "discconectDemoToolStripMenuItem";
+            this.discconectDemoToolStripMenuItem.Size = new System.Drawing.Size(112, 20);
+            this.discconectDemoToolStripMenuItem.Text = "Discconect Demo";
+            this.discconectDemoToolStripMenuItem.Click += new System.EventHandler(this.discconectDemoToolStripMenuItem_Click);
+            // 
+            // dissconnectDemo1ToolStripMenuItem
+            // 
+            this.dissconnectDemo1ToolStripMenuItem.Name = "dissconnectDemo1ToolStripMenuItem";
+            this.dissconnectDemo1ToolStripMenuItem.Size = new System.Drawing.Size(124, 20);
+            this.dissconnectDemo1ToolStripMenuItem.Text = "Dissconnect Demo1";
+            this.dissconnectDemo1ToolStripMenuItem.Click += new System.EventHandler(this.dissconnectDemo1ToolStripMenuItem_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -93,5 +111,7 @@ namespace AdoDotNetProject
         private System.Windows.Forms.ToolStripMenuItem productToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem employeeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem studentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem discconectDemoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dissconnectDemo1ToolStripMenuItem;
     }
 }
